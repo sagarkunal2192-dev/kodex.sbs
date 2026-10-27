@@ -1,0 +1,9 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Nova AI</title><link rel="stylesheet" href="/styles.css"></head><body>
+<div class="app"><nav class="side" aria-label="Main"><a class="logo" href="/" style="padding:6px 10px">Nova AI</a>
+<button class="it new" id="new">+ New Chat</button><input id="q" type="search" placeholder="Search Chats" aria-label="Search Chats">
+<button class="it" disabled>Explore <small>Soon</small></button><button class="it" disabled>Library <small>Soon</small></button><button class="it" disabled>Persona AI <small>Soon</small></button><button class="it" disabled>Tasks <small>Soon</small></button><button class="it" disabled>Settings <small>Soon</small></button>
+<h4>Your chats</h4><div id="list"></div><button class="it" id="prof" style="margin-top:auto">Profile</button></nav>
+<section class="main"><div class="log" id="log"></div>
+<div class="dock"><form class="box" id="f"><textarea id="in" rows="1" placeholder="Ask me anything..." aria-label="Message"></textarea><button type="button" class="mic" id="mic" aria-label="Voice input">&#127908;</button><button aria-label="Send">&#10148;</button></form>
+<div class="sugg" id="sg"></div><p id="err" role="alert" style="color:#f87171;text-align:center"></p></div></section></div>
+<script src="/app.js"></script></body></html>
