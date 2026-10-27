@@ -1,0 +1,1 @@
+{"name":"nova-portal","private":true,"scripts":{"dev":"wrangler pages dev public --d1=DB","db:local":"wrangler d1 migrations apply nova-portal-db --local","db:remote":"wrangler d1 migrations apply nova-portal-db --remote","deploy":"wrangler pages deploy public --project-name nova-portal"},"devDependencies":{"wrangler":"^4"}}
